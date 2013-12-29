@@ -1,0 +1,145 @@
+div {
+		/*border: 1px dashed black;*/
+}
+
+body {
+	/*font-family: 'Nunito', sans-serif;*/
+	font-family: 'Concert One', cursive;
+	color: #FAF3BC;
+	background: #888888 url('img/Yellow_bkrd.jpg---') no-repeat right top;
+}
+
+a {
+	color: #4FB69F;
+	text-decoration: none;
+}
+
+/*h1 {
+	color:#FE140D;
+	font-size: 2em;
+	letter-spacing: -1.5px;
+	font-family: 'Sigmar One', cursive;
+}*/
+
+h2 {
+	font-size: 1.75em;
+	color: #FE140D;
+	font-family: 'Sigmar One', cursive;
+	/*border: 1px dashed black;*/
+  	display: block;
+  	margin-top: 10px;  /**/
+    margin-bottom: -20px;  /**/
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h3 {
+	font-family: 'Concert One', cursive;
+	color: #FAF3BC;
+	font-weight: normal;
+	text-align: center;
+
+}
+
+img { max-width: 100% }
+
+.btn  {
+	color: #FAF3BC;
+	background: #FE140D;
+	padding: 5px 30px;  /**/
+    margin: 40px 0px;  /**/
+    border-radius: 25px;  /**/
+    text-transform: uppercase;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.btn:hover {
+	background: #FE140D;
+}
+
+ul.nav {
+  margin: 30px 0 0 0;  /**/
+  list-style: none;
+  float: right;
+}
+
+ul.nav li {
+	margin-right: 20px;  /**/
+	float: right;
+	margin-bottom: 10px;  /**/
+}
+
+ul.nav li a {
+	color: #FAF3BC;
+	float: right;
+}
+
+#last {
+	margin-right: -2px;  /**/
+}
+
+#intro {
+	float: left;
+	margin-top: -10px;  /**/
+	margin-bottom: 0px;  /**/
+/*	margin: 50px 0 75px 0;  */
+}
+
+#intro-2nd-para {
+	margin-bottom: 20px;  /**/
+}
+
+#film-scenes {
+	float: right;
+	text-align: center;
+}
+
+#film-scenes img {
+	border: 8px solid #FAF3BC;
+	margin: 15px 0 1px 0;  /**/
+	float: right;
+}
+
+#film-scenes h2 {
+	margin-bottom: -6px;  /**/
+}
+
+#filmmaker {
+}
+
+#filmmaker img {
+    border: 8px solid #FAF3BC;  /**/
+	margin-top: 15px;  /**/
+}
+
+#copyright {
+	/*border-top: 2px solid #2A0400;*/
+	display: block;
+	padding: 2px 0px;  /**/
+	text-align: left;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#LSC_logo {
+    margin-top: 20px;  /**/
+	float: left;
+
+}
+
+#LSC_logo img {
+    height: auto;
+    margin: 0;
+    border: 8px solid #FAF3BC;  /**/	
+
+}
+
+#DVD_cover {
+	float: right;
+}
+
+#DVD_cover img {
+	border: 8px solid #FAF3BC;  /**/
+	margin: 0 0 20px 0;  /**/
+	float: right;
+}
