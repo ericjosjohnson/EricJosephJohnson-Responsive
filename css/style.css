@@ -15,7 +15,6 @@ p {
 	margin: 1em 2em 0 0;
 }
 
-
 h2 {
 	font-size: 1.75em;
 	color: #FE410D;
@@ -38,10 +37,7 @@ h4 {
 	font-weight: normal;
 }
 
-
-
 img { max-width: 100%; }
-
 
 .btn  {
 	color: #FAF3BC;
@@ -78,6 +74,7 @@ img { max-width: 100%; }
 #nav ul li.contact:hover {
 	background-color: #c62718;
 }
+
 #nav ul li a {
 	font-size: 1em;
 	color: #FAF3BC;
@@ -86,7 +83,6 @@ img { max-width: 100%; }
 	display: block;
 	text-decoration: none;
 }
-
 
 #intro {
 	margin: 0;
@@ -196,17 +192,20 @@ img { max-width: 100%; }
 	}
 
 	#intro {
-		/*margin-bottom: 0;*/
 	}
 
 	#intro p {
-		margin-right: 2em;
+		margin-right: 1em;
 	}
 
 	#intro-2nd-para {
 		margin: 0 0 0 0;
 		width: 50%;
 		float: left;
+	}
+
+	#intro-2nd-para p {
+		margin-right: 0em;
 	}
 
 	#filmmaker img {
@@ -217,8 +216,6 @@ img { max-width: 100%; }
 	}
 
 }
-
-
 
 /* iPhone --------------- */
 @media screen  and (max-width: 480px) {
@@ -243,14 +240,12 @@ img { max-width: 100%; }
 	}
 
 	#intro p {
-		margin-right: 0em;
+		margin-right: 0;
 	}
-
 
 	#intro-2nd-para p {
 		margin-right: 0;
 	}
-
 
 	#intro-2nd-para {
 		margin: 0 0 0 0;
@@ -291,5 +286,3 @@ img { max-width: 100%; }
 	}
 
 }
-
-
