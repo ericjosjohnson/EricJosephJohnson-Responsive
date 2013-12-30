@@ -1,25 +1,32 @@
 body {
 	font-family: 'Concert One', cursive;
 	color: #FAF3BC;
-	background: #888888 url('img/Yellow_bkrd.jpg---') no-repeat right top;
+	background: #888888;
 }
 
 a {
-	color: #4FB69F;
+	color: #F4B69F;
 	text-decoration: none;
 }
 
+p {
+	color: #FAF3BC;
+	font-size: 1em;
+	margin: 1em 2em 0 0;
+}
+
+
 h2 {
 	font-size: 1.75em;
-	color: #FE140D;
-	font-family: 'Sigmar One', cursive;
-  	display: block;
-    margin-bottom: -0.7em;  /*-20px*/
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: #FE410D;
+	font-family: 'Sigmar One', sans-serif;
+	display: block;
+	margin-bottom: -0.7em;  /*-20px*/
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 h3 {
-	font-family: 'Concert One', cursive;
+	font-family: 'Concert One', sans-serif;
 	color: #FAF3BC;
 	font-weight: normal;
 	text-align: center;
@@ -31,46 +38,71 @@ h4 {
 	font-weight: normal;
 }
 
-img { max-width: 100% }
+
+
+img { max-width: 100%; }
+
 
 .btn  {
 	color: #FAF3BC;
 	background: #FE140D;
+	margin: 1em 0 0 0;
 	padding: 0.5em 2em;  /*5px 30px*/
-    border-radius: 2em;  /*25px*/
-    text-transform: uppercase;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	border-radius: 2em;  /*25px*/
+	text-transform: uppercase;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	box-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .btn:hover {
 	background: #FE140D;
 }
 
-ul.nav {
-    margin: 5% 1% 2% 0;
-    list-style: none;
-    float: right;
+#button {
+	float: left;
+	margin: 1em 0 1em 0;
 }
 
-ul.nav li {
-    display: inline;
+#nav ul {
+	width: 100%;
+	margin: 8% 0.4em 0 0;
+	list-style: none;
 	float: right;
 }
 
-ul.nav li a {
+#nav ul li {
+	float: right;
+	margin: 0 0 0 0;
+}
+
+#nav ul li.contact:hover {
+	background-color: #c62718;
+}
+#nav ul li a {
 	font-size: 1em;
 	color: #FAF3BC;
 	float: right;
 	margin: 0 0 0 1em;
+	display: block;
+	text-decoration: none;
 }
 
+
 #intro {
+	margin: 0;
+	float: left;
+}
+
+#intro p {
 	float: left;
 }
 
 #intro-2nd-para {
-	margin-bottom: 5%;  /*20px*/
+	margin: 0;
+}
+
+#intro-2nd-para p {
+	margin: 1em 2em 1em 0;
 }
 
 #film-scenes {
@@ -89,27 +121,33 @@ ul.nav li a {
 }
 
 #filmmaker img {
-    border: 8px solid #FAF3BC; 
+	border: 8px solid #FAF3BC; 
 	margin-top: 4%;  /*15px*/
+	float: left;
 }
 
 #copyright {
 	display: block;
 	text-align: left;
+	float: left;
+	width: 50%;
+	margin: 0;
+}
+
+#copyright p {
+	margin: 0;
 }
 
 #LSC_logo {
-    margin-top: 2%;  /*20px*/
-    margin-bottom: 1%;
+	margin-top: 2%;  /*20px*/
+	margin-bottom: 1%;
 	float: left;
-
 }
 
 #LSC_logo img {
-    height: auto;
-    margin: 0;
-    border: 8px solid #FAF3BC;  
-
+	height: auto;
+	margin: 0;
+	border: 8px solid #FAF3BC;  
 }
 
 #DVD_cover {
@@ -121,3 +159,137 @@ ul.nav li a {
 	margin: 0 0 2% 0;  /*0 0 20px 0*/
 	float: right;
 }
+
+#social-media {
+	float: left;
+	margin: 1em 1em 0.5em 0.2em;
+}
+
+/* iPad ----------------- */
+@media screen and (max-width: 1024px) {
+
+	p {
+		font-size: 0.9em;
+		margin-top: 0.4em;
+	}
+
+	h2 {
+		font-size: 1.33em;
+		margin: 1em 0 0 0;
+		line-height: 120%;
+	}
+
+	h3 {
+		font-size: 0.9em;
+	}
+
+	#nav ul {
+		width: 100%;
+		margin: 5% 0 0 0;
+		list-style: none;
+		float: right;
+	}
+
+	#nav ul li a {
+		-webkit-user-select: none;
+		font-size: 0.85em;
+	}
+
+	#intro {
+		/*margin-bottom: 0;*/
+	}
+
+	#intro p {
+		margin-right: 2em;
+	}
+
+	#intro-2nd-para {
+		margin: 0 0 0 0;
+		width: 50%;
+		float: left;
+	}
+
+	#filmmaker img {
+		border: 8px solid #FAF3BC; 
+		margin-top: 4%;  /*15px*/
+		float: left;
+		width: 100%;
+	}
+
+}
+
+
+
+/* iPhone --------------- */
+@media screen  and (max-width: 480px) {
+	
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width: 100%;
+	}
+
+	p {
+		margin-right: 0;
+	}
+
+	#intro p {
+		margin-right: 0em;
+	}
+
+
+	#intro-2nd-para p {
+		margin-right: 0;
+	}
+
+
+	#intro-2nd-para {
+		margin: 0 0 0 0;
+		width: 100%;
+		float: left;
+	}
+
+	#nav ul {
+		margin: 1em 0 0.3em 0;
+		float: left;
+		padding: 0;
+	}
+
+	#nav ul li {
+		float: left;
+		margin: 0 0 0 0;
+	}
+
+	#nav ul li a {
+		-webkit-user-select: none;
+		font-size: 0.9em;
+	}
+
+	#copyright {
+		width: 100%;
+	}
+
+	#DVD_cover img {
+		float: left;
+	}
+
+	#film-scenes img {
+		float: left;
+	}
+
+	#alain {
+		display: none;
+	}
+
+}
+
+

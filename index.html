@@ -9,6 +9,7 @@
   <link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Concert+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -18,12 +19,12 @@
       <img src="img/LSC_logo_horizontal_3_490.jpg" alt="La Salsa Cubana Logo">
     </div>
 
-    <div class="grid_6 omega">
-      <ul class="nav">
-        <li><a href="meprivapictures@gmail.com">Contact Us</a></li>
-        <li><a href="#">Music</a></li>
-        <li><a href="#">About the Production</a></li>
-        <li><a href="#">Filmmakers</a></li>
+    <div id="nav" class="grid_6 omega">
+      <ul>
+        <li class="filmmakers"><a href="#">Filmmakers</a></li>
+        <li class="about-production"><a href="#">About Production</a></li>
+        <li class="music"><a href="#">Music</a></li>
+        <li class="contact-us"><a href="meprivapictures@gmail.com">Contact Us</a></li>
       </ul>
     </div>
 
@@ -31,12 +32,17 @@
       <img src="img/DVD_cover_385.jpg" alt="DVD artwork">
     </div>
 
-    <div id="intro" class="grid_6">
+    <div id="intro" class="grid_7">
       <p>Step into a world filled with vibrant dancing, fascinating relationships, terrific music, and vivid Cuban imagery shot on location in Havana.</p>
-      <p id="intro-2nd-para">With a soundtrack that features music from some of Cuba's all-time greatest musical legends, this film is an insider's look into the contemporary salsa dance scene in Havana rarely seen outside of Cuba. La Salsa Cubana is the first feature film to explore and explain Cuba's de facto national dance, known as casino or Cuban salsa, since it appeared in Havana social clubs during the 1950s. </p>
-      <p><a href="#" class="btn" class="btn:hover">Buy the DVD</a></p>
     </div>
 
+    <div id="intro-2nd-para" class="grid_7">
+      <p>With a soundtrack that features music from some of Cuba's all-time greatest musical legends, this film is an insider's look into the contemporary salsa dance scene in Havana rarely seen outside of Cuba. La Salsa Cubana is the first feature film to explore and explain Cuba's de facto national dance, known as casino or Cuban salsa, since it appeared in Havana social clubs during the 1950s. </p>
+      <div id="button">
+        <a href="#" class="btn" class="btn:hover">Buy the DVD</a><br>
+      </div>
+    </div>
+ 
     <div id="filmmaker" class="grid_6">
         <img src="img/Eric_Filmmaker_555.jpg" alt="Eric Filmmaker">
     </div>
@@ -45,28 +51,29 @@
       <h2>Scenes from the Film</h2>
       <img src="img/Dancing_CasaDeCultura_385.jpg" alt="Dancing in Casa de Cultura">
       <h3>Dance rehearsal at the Casa de Cultura</h3>
-      <img src="img/Alain_385.jpg" alt="Alain">
-      <h3>Alain – “I feel Cuban when I dance salsa”</h3>
+      <div id="alain">
+        <img src="img/Alain_385.jpg" alt="Alain">
+        <h3>Alain – “I feel Cuban when I dance salsa”</h3>
+      </div>
       <img src="img/OldSchoolDancers_385.jpg" alt="Old School Dancers">
       <h3>“Old School” Dancers Pepe and Oso</h3>
     </div>
 
-    <div class="grid_6">
+    <div class="grid_7">
       <h2>Filmmaker Profile</h2>
       <p>Eric Joseph Johnson is a filmmaker, entrepreneur, and dancer. During 2003 and 2004 he lived in Cuba while studying dance in the streets and neighborhoods of Havana and as a student at the Instituto Superior de Arte, Cuba’s university of the performing arts. One of Eric's quirky habits is eating raw cocao beans!</p>
-      <h4><a href="#" class="btn-small">Read More</a></h4>
     </div>
 
-    <div class="grid_6 omega">
+    <div id="see-the-film" class="grid_7 omega">
       <h2>See the Film!</h2>
       <p>We announce all of our screenings of the film through Facebook.  Contact us to arrange a local screening.</p>
-      <div id="see-the-film---">
+      <div id="social-media">
         <a href="http://www.facebook.com/LaSalsaCubana"><img src="img/facebook.gif" alt="Facebook"></a>
         <a href="https://twitter.com/#!/smellslikebakin"><img src="img/twitter.gif" alt="Twitter"></a>
-      <div>
+      </div>
     </div>
 
-    <div id="copyright" class="grid_12">
+    <div id="copyright">
       <p>&copy; 2011 Me Priva Pictures. All Rights Reserved.</p>
     </div>
 
